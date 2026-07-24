@@ -4,7 +4,7 @@
 
 You are the supply chain analytics engineer at a mid-sized consumer goods company. The company operates **some regional distribution centers (DCs)** with known, fixed daily throughput capacity. These DCs ship product to **64 downstream regional markets**, each served today through a mix of direct trucking lanes.
 
-Leadership has launched a "**Fast Flow**" initiative: customers should receive orders within a **next-day window** wherever possible, and unmet or late demand is costing the company in lost sales and expedite fees. At the same time, Finance wants total network cost (fixed facilities&lane commitments + variable transportation + penalties) kept under control.
+Leadership has launched a "**Fast Delivery**" initiative: customers should receive orders within a **next-day window** wherever possible, and unmet or late demand is costing the company in lost sales and expedite fees. At the same time, Finance wants total network cost (fixed facilities&lane commitments + variable transportation + penalties) kept under control.
 
 The challenge: **market demand cannot be predicted with certainty**. It varies day to day due to promotions, seasonality, weekday effects, and local market dynamics. Demand also tends to move together across regions during shared events (e.g., a national promotion or holiday), so regions are not statistically independent. Supply capacity at each DC, on the other hand, is fixed and known — it depends on physical warehouse throughput, not on demand.
 
@@ -18,10 +18,10 @@ You can have these data:
 Leadership wants a **network design recommendation**: which DC–market depots should be committed to (opened), and how much capacity should be reserved on each, so that:
 
 1. The network reliably meets a **≥95% service level** (fraction of demand fulfilled) across the range of demand outcomes that could realistically occur — not just the "average" day.
-2. Flow that must travel on a **slow flow (>next day delivery)** or that goes **unmet entirely** is penalized, since both undermine the Fast Delivery promise.
+2. Order flow that must travel on a **slow delivery (>next day delivery)** or that goes **unmet entirely** is penalized, since both undermine the Fast Delivery promise.
 3. **Total expected cost** (fixed depot commitments + variable transport + penalties) is minimized.
 4. The **fixed supply capacity** at each DC is never exceeded.
-5. Decisions about which depot to commit to must be made **before** actual demand for a given day is known — but once demand for a given day is realized, flow can be routed adaptively across whichever depots were committed.
+5. Decisions about which depot to commit to must be made **before** actual demand for a given day is known — but once demand for a given day is realized, delivery can be routed adaptively across whichever depots were committed.
 
 ## Your Task
 
