@@ -5,7 +5,8 @@ This take-home test evaluates a candidate’s modeling skills through one main e
 
 - Theoretical model framework building from requirements
 
-Candidates are allowed to use AI tools to support their work. However, during the interview, you should be prepared to explain the concepts, modeling choices, and solution approach you used in your submission.
+Candidates are allowed to use AI tools to support their work. 
+However, during the interview, you should be prepared to explain the concepts, modeling choices, and solution approach you used in your submission. Please refer to sample*.ipynb as a template on what is expected for the deliveriables of this excercise.
 
 ## Submission Instructions ✅
 Please submit your work by email to HR incharge.
