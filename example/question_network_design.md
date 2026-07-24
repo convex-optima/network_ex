@@ -4,7 +4,7 @@
 
 You are the supply chain analytics engineer at a mid-sized consumer goods company. The company operates **some regional distribution centers (DCs)** with known, fixed daily throughput capacity. These DCs ship product to **64 downstream regional markets**, each served today through a mix of direct trucking lanes.
 
-Leadership has launched a "**Fast Delivery**" initiative: customers should receive orders within a **next-day window** wherever possible, and unmet or late demand is costing the company in lost sales and expedite fees. At the same time, Finance wants total network cost (fixed facilities&lane commitments + variable transportation + penalties) kept under control.
+Leadership has launched a "**Fast Delivery**" initiative: customers should receive orders within a **next-day window** wherever possible, and unmet or late demand is costing the company in failed/bad customer experience and expedite future lost sales. At the same time, Finance wants total network cost (fixed facilities&lane commitments + variable transportation + penalties) kept under control.
 
 The challenge: **market demand cannot be predicted with certainty**. It varies day to day due to promotions, seasonality, weekday effects, and local market dynamics. Demand also tends to move together across regions during shared events (e.g., a national promotion or holiday), so regions are not statistically independent. Supply capacity at each DC, on the other hand, is fixed and known — it depends on physical warehouse throughput, not on demand.
 
