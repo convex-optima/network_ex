@@ -18,7 +18,7 @@ You can have these data:
 Leadership wants a **network design recommendation**: which DC–market depots should be committed to (opened), and how much capacity should be reserved on each, so that:
 
 1. The network reliably meets a **≥95% service level** (fraction of demand fulfilled) across the range of demand outcomes that could realistically occur — not just the "average" day.
-2. Order flow that must travel on a **slow delivery (>next day delivery)** or that goes **unmet entirely** is penalized, since both undermine the Fast Delivery promise.
+2. Order flow that travel on a **slow delivery (>next day delivery)** or that goes **unmet entirely** is penalized, since both undermine the Fast Delivery promise.
 3. **Total expected cost** (fixed depot commitments + variable transport + penalties) is minimized.
 4. The **fixed supply capacity** at each DC is never exceeded.
 5. Decisions about which depot to commit to must be made **before** actual demand for a given day is known — but once demand for a given day is realized, delivery can be routed adaptively across whichever depots were committed.
